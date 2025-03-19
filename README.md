@@ -7,11 +7,11 @@ Apply multimedia elements such as audio and video.
 
 ## Instructions
 
-- Create an index.html file.
-- Add an ordered list with roman numerals
-- Add an external image from pexels.com
-- Add a table of 5 contacts with; name, address, mobile and emails
-- Add a registration form
+[x]- Create an index.html file.
+[x]- Add an ordered list with roman numerals
+[x]- Add an external image from pexels.com
+[x]- Add a table of 5 contacts with; name, address, mobile and emails
+[x]- Add a registration form
 
 >[!NOTE]
 >  The registration form should have:

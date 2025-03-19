@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week_2_Assignment</title>
+</head>
+<header>
+    <h1>Advance HTML</h1>
+    <p>Showcasing advance HTML skill</p>
+</header>
+<body>
+    <h3>List of PLP modules</h3>
+    <h4>Ordered List</h4>
+    <ol type="i">
+        <li> Software Engineering</li>
+        <li> Web Development</li>
+        <li> Python</li>
+        <li> Database</li>
+        <li> Startup</li>
+    </ol>
+    <h3>PLP instructors</h3>
+    <h4>Unordered List</h4>
+    <ul>
+        <li>Mr. Chakin</li>
+        <li>Mr. Eddy</li>
+        <li>Miss. Susan</li>
+        <li>Miss. Nelly</li>
+        <li>Mr. Gerald</li>
+    </ul>
+    <h3>Definition List</h3>
+    <dl >   
+        <dt>Software Engineering</dt>
+        <dd>A field of computer science concerned with the design, development, implementation, and maintenance of software applications.</dd>
+        <dt>Web Development</dt>
+        <dd>The process of creating websites and web applications using HTML, CSS, and JavaScript.</dd>
+        <dt>Python</dt>
+        <dd>An interpreted high-level general-purpose programming language.</dd>
+        <dt>Database</dt>
+        <dd>A structured collection of data stored in a computer system.</dd>
+        <dt>Startup Building</dt>
+        <dd>The process of developing a new company from scratch.</dd>
+    </dl>
+
+
+
+    <!-- <h1>Multimedia</h1>
+    <p>This section includes various multimedia elements such as images, videos, audio, and interactive elements.</p>
+    <h2>Images</h2>
+    <img src="https://images.pexels.com/photos/92905/pexels-photo-92905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="snap shot of css code" width="300" height="200">
+    <img src="images.png" alt="life message" width="300" height="200">
+    <h2>Video</h2>
+    <video controls width="440" height="290">
+        <source src="vid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video> -->
+    <br>
+    <h3>Table and content</h3>
+    
+    <table border="1" cellpadding="10" cellspacing="0">
+        <caption>Information Table</caption>
+        <thead>
+            <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Mobile Number</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+           <tr>
+            <td>Thompho</td>
+            <td>Tshivhenga</td>
+            <td>Mbombela</td>
+            <td>+27763300523</td>
+            <td>Tshivhenga18@gmail.com</td>
+           </tr>
+           <tr>
+            <td>Khathutshelo</td>
+            <td>Muhanelwa</td>
+            <td>Magau</td>
+            <td></td>
+            <td></td>
+           </tr>
+           <tr>
+            <td>Nditsheni</td>
+            <td>Phungo</td>
+            <td>Magau</td>
+            <td></td>
+            <td></td>
+           </tr>
+           <tr>
+            <td>Gundo</td>
+            <td>Phampha</td>
+            <td>Muswodi</td>
+            <td></td>
+            <td></td>
+           </tr>
+           <tr>
+            <td>Mashudu</td>
+            <td>Nefolovhodwe</td>
+            <td>Niani</td>
+            <td></td>
+            <td></td>
+           </tr>
+        </tbody>
+    </table>
+
+    <h3>Registration Form</h3>
+    <P>Simple Registration form </P>
+    
+    <form action="" method="">
+        <label for="name">First Name</label><br>
+        <input type="text" id="student_name" placeholder="" required><br><br>
+        <label for="surname"> Last Name</label><br>
+        <input type="text" id="last_name" placeholder="" required><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" required><br><br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" value="male" id="male"> Male
+        <input type="radio" value="female" id="female"> Female <br><br>
+        <label for="dob">Date of Birth</label> &nbsp
+        <input type="date" id="dob"><br><br>
+        <label for="country">Country of Origin</label>
+        <select name="coutries" id="countries" >
+            <option value="RSA">South Africa</option>
+            <option value="namibia">Namibia</option>
+            <option value="lesotho">Lesotho</option>
+            <option value="Zimbabwe">Zimbabwe</option>
+            <option value="Botswana">Botswana</option>
+            <option value="Angola">Angola</option>
+            <option value="DRC">D.R. Congo</option>
+            <option value="swaziland">Swaziland</option>
+            <option value="nairobi">Nairobi</option>
+        </select><br><br>
+        <label for="hobbies">Hobbies</label> <br>
+        <input type="checkbox" id="singing" name="hobbies" value="singing"> Singing <br>
+        <input type="checkbox" id="dancing" name="hobbies" value="dancing"> Dancing <br>
+        <input type="checkbox" id="cooking" name="hobbies" value="cooking"> Cooking <br>
+        <input type="checkbox" id="travelling" name="hobbies" value="travelling"> Travelling <br>
+        <input type="checkbox" id="gaming" name="hobbies" value="gaming"> Gaming <br>
+        <input type="checkbox" id="swimming" name="hobbies" value="swimming"> Swimming <br>
+        <input type="checkbox" id="cycling" name="hobbies" value="cycling"> Cycling <br>
+        <input type="checkbox" id="running" name="hobbies" value="running"> Running <br>
+        <input type="checkbox" id="walking" name="hobbies" value="walking"> Walking <br>
+        <input type="checkbox" id="yoga" name="hobbies" value="yoga"> Yoga <br>
+        <input type="checkbox" id="meditation" name="hobbies" value="meditation"> Meditation <br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading"> Reading <br>
+        <input type="checkbox" id="writing" name="hobbies" value="writing"> Writing <br>
+        <input type="checkbox" id="painting" name="hobbies" value="painting"> Painting<br><br>
+       
+        <label for="discription">Discribe Yourself</label><br>
+        <textarea rows="10" cols="83" placeholder="Enter your text here!!!" id="textarea"></textarea> <br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required minlength="8"> <br> 
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+        <input type="checkbox" id="terms" name="terms" required> I agree to the terms and conditions. <br>
+        <input type="checkbox" id="newsletter" name="newsletter"> Sign up for our newsletter. <br>
+        
+        &nbsp;<label for="remember_me">Remember Me</label>
+        <input type="checkbox" id="remember" name="remember" checked> <br>
+        
+        <button type="submit">Submit</button> &nbsp;
+        <input type="reset" value="Reset"> &nbsp;
+    </form>
+<footer>
+    <p>&copy; 2025 PLP learning activity</p>
+</footer>
+</body>
+</html>
